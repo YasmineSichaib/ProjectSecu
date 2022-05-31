@@ -21,7 +21,7 @@ for tweet in tweets:
     print('Nom du user : ' + tweet.user.name)
     print('Le tweet ID --> ' + str(tweet.id) + ' - Le tweet : ' + tweet.text)
 
-#Afficher les abonnés
+#Afficher mes abonnés
 for follower in tweepy.Cursor(api.get_followers).items():
     print("Followers : " + follower.name)
 
