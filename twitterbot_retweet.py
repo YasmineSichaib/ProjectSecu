@@ -7,7 +7,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 tweets = api.mentions_timeline()
-twts = api.search_tweets(q="Hello World!", count=1 , lang="en" , result_type="recent")
+
 #Vérifier l'état de la connexion
 try:
     api.verify_credentials()
@@ -28,6 +28,11 @@ for follower in tweepy.Cursor(api.get_followers).items():
 print("Home tweets :")
 for tweet in tweepy.Cursor(api.home_timeline).items(10):
     print(f"{tweet.user.name} tweet: {tweet.text}") 
+
+print("Twitter bot which retweets, like tweets and follow users")
+print("Bot Settings")
+print("Like Tweets :", LIKE)
+print("Follow users :", FOLLOW)
 
 print('\nTweets avec hashtag : ')
 for tweet in tweepy.Cursor(api.search_tweets, q = QUERY).items():
