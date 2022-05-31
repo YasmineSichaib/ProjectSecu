@@ -9,7 +9,7 @@ Afin de créer un bot twitter qui nous permet de retweeter, liker et s'abonner �
 5.On génére les API keys et les Tokens access et on les mets dans le script credentials.py
 6.Création du script twitterbot_retweet.py, ce script permet de: 
   - Vérifier l'état de la connexion au compte.
-  - Afficher ses propres tweets.
+  - Afficher ses propres tweets avec l'ID du tweet.
   - Afficher les tweets qui sont dans la file d'actualité "Home".
   - Afficher les abonnés du compte avec le nom du user.
   - Retweet, like, et follow tous les tweets avec le #cybersecurity
