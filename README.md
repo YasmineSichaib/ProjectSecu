@@ -12,4 +12,4 @@ Afin de créer un bot twitter qui nous permet de retweeter, liker et s'abonner �
   - Afficher ses propres tweets avec l'ID du tweet.
   - Afficher les tweets qui sont dans mon fil d'actualité "Home".
   - Afficher les abonnés du compte avec le nom du user.
-  - Retweet, like, et follow tous les tweets avec le #cybersecurity
+  - Retweet, like, et follow tous les tweets avec le #cybersecurity.
