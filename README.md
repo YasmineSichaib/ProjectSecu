@@ -13,3 +13,4 @@ Afin de créer un bot twitter qui nous permet de retweeter, liker et s'abonner �
   - Afficher les tweets qui sont dans mon fil d'actualité "Home".
   - Afficher les abonnés du compte avec le nom du user.
   - Retweet, like, et follow tous les tweets avec le #cybersecurity.
+Remarque : Nous avons choisi le mot cybersecurity mais il est tout à fait possible de changer ce mot, ou d'en ajouter plusieurs en modifiant la ligne contentant QUERY dans le fichier config.py par exemple comme suit : QUERY= ('#cybersecurity OR #hackers OR #kalilinux') le programme exécutera cela selon donc plusieurs hashtags.
